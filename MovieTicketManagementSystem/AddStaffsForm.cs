@@ -14,11 +14,11 @@ namespace MovieTicketManagementSystem
     public partial class AddStaffsForm : UserControl
     {
 
-        string conn = @"Data Source=DESKTOP-TE6J274;
-                        Initial Catalog=movie;
-                        Integrated Security=True;
-                        Pooling=False;Encrypt=False;
-                        ";
+        // Dấu . thay cho tên máy cụ thể
+        string conn = @"Data Source=.;
+                      Initial Catalog=movie;
+                      Integrated Security=True;
+                      Encrypt=False";
 
         public AddStaffsForm()
         {
